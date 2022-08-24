@@ -1,0 +1,20 @@
+.values__wrapper h3 {
+  color: var(--white);
+  margin-bottom: 0.7rem;
+  margin-top: -0.3rem;
+}
+
+.values__wrapper p {
+  color: var(--very-ligth-grey);
+  margin-top: 0.7rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .main__header {
+    height: fit-content;
+    padding: 12rem 0;
+  }
+  .main__header-container {
+    gap: 0;
+  }
+}

@@ -1,13 +1,225 @@
-body {
+/* Google fonts backup css */
+/* Indie Flower ; Tillana ; Water Brush ; Meddon ; Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Island+Moments&family=Josefin+Sans:wght@300;400;600&family=Meddon&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Quicksand:wght@300;500;700&family=Roboto:wght@100&family=Tillana:wght@400;500&family=Ubuntu:wght@300&family=Water+Brush&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border:0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* overflow-x: hidden; */
+
+}
+:root {
+  --white: #ffffffda;
+  --skin-pink: #f4c988;
+  --pink-100: #fedcf1;
+  --pink-200: #ffcfed;
+  --pink-300: #fd62a3;
+  --pink-400: #da397c;
+  
+  --violet: ##9c66d4;
+  --light-violet: ##ad81dd;
+  --violet: #453c80;
+  
+  --very-ligth-grey: #ffffffb5;
+  --ligth-grey: #bec0c3;
+  --grey: #606060;
+
+  --black: black
+  
+
+  --blue-100: #b1e4f9;
+  --blue-200: #90d8f9;
+  --blue-400: #3243aa;
+  --blue-500: #182740;
+  --blue-600: #0e192b;
+  --blue-700: #0c1119;
+  
+
+  --conteiner-width-lg: 80%;
+  --conteiner-width-md: 90%;
+
+  --transition: all 500ms ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* GENERAL STYLES*/
+body{
+  font-family: Montserrat, Ubuntu, sans-serif;
+  background-color: var(--blue-600);
+  color: var(--pink-200);
+  line-height: 1.7;
+  
+}
+.container {
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: 10%  10%;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.2;
+  color: var(--white)
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+a{
+  color: var(--very-ligth-grey)
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+.btn {
+  color: var(--pink-100);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  background: var(--pink-400);
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--blue-400);
+}
+
+.btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.btn.sm {
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.btn.sm:hover{
+  background: var(--pink-100);
+  color: var(--pink-400)
+}
+
+
+
+
+section {
+  margin-top: 8rem;
+}
+
+.section__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem
+}
+/* Indie Flower ; Tillana ; Water Brush ; Meddon ; Ubuntu */
+.section__head h2{
+  font-family: 'indie flower';
+  font-size: 3rem;
+}
+
+.section__head span{
+  background-color: var(--blue-500);
+  padding: 0.4rem 0.8rem 0rem;
+  border-radius: 1rem;
+  color: var(--pink-400);
+  font-size: 2.5rem;
+}
+
+
+.card{
+  background-color: var(--blue-500);
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 0 3rem;
+  transition: var(--transition);
+}
+
+.card img{
+  height: 20rem;
+}
+
+.card:hover{
+  background: transparent;
+  filter: saturate(2);
+  border-color: var(--ligth-grey);
+}
+
+.card span {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--pink-400);
+  color: var(--pink-100);
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.card:hover span{
+  background: var(--blue-400);
+  color: white;
+}
+
+.card small {
+  margin-top: 1rem;
+  display: block;
+  font-weight: 300;
+}
+
+
+/* QUERIES */
+
+@media screen and (max-width: 1024px){
+  .container{
+    width: var(--container-width-md);
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.6rem;
+  }
+  p{
+    transform: scale(93%);
+  }
+}
+
+@media screen and (max-width: 600px){
+  
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
+  section{
+    margin-top: 7rem;
+  }
+  p{
+    transform: scale(85%);
+  }
+  .btn.lg {
+    padding: 1.2rem 1.rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
 }

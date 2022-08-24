@@ -1,0 +1,22 @@
+.conteiner.products {
+  margin-top: 15rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .programs__wrapper {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .programs__wrapper {
+    grid-template-columns: 1fr !important;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .programs__program {
+    width: 84%;
+    margin: 0 auto;
+  }
+}

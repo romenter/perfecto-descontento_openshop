@@ -1,0 +1,24 @@
+.container__not-found {
+  align-self: center;
+  justify-self: center;
+  margin-top: 20vh;
+  width: 40%;
+  margin-left: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .container__not-found img {
+    width: 150%;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container__not-found img {
+    width: 200%;
+  }
+  .container__not-found {
+    margin-left: 3rem;
+  }
+}

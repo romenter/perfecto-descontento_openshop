@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Proyecto: **Perfecto descontento**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project realized for a client from university of Lanus (argentina).**
+**I have permission to publish the page in github and in my dev-briefcase.**
 
-## Available Scripts
 
-In the project directory, you can run:
+Project init:   _17-08-2022_
+Project finish: _24-08-2022_
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Logica del negocio:
 
-### `npm run build`
+### Estetica
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La logica de negocio esta orientado a una PyME que realiza productos artesanales unicos.
+Los colores primarios para el landing page fueron tomados de sus cuadros mas utilizados en IG (instagram) - Perfecto descontento; se eligio un background oscuro para que inicialice en DarkMode (no se descarga en el futuro colores primarios acorde a DayMode).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Fundamentos
+El fundamento de la pagina es un aumento de la Marca, visibilidad de los productos, y enlaces de contactos. La pagina no cuenta con precios, ya que los precios de los cuadros no son todos iguales (adquiere un valor subjetivo segun la autora) y tampoco (menos) es necesario un carrito de compra. Tiene un boton de enlace que redirige directamente a la casilla de chat de wassap.
+Aunque se estuvo conversando por un aumento automatico y sucesivo de precios que este directamente relacionado al aumento porcentual del precio del Dolar Mayorista, se decidio finalmente que no tendria sentido, es mas sencillo, mas rapido, y mas practico que se utilice la pagina como una enorme galeria informativa y los clientes sean ascesorados directamente por la artista.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Conformidad y finalizacion
+Conformidad total. A palabras de la clienta cuando se le pregunto si le gustaria realizar un cambio estetico, contesto: 'no tocaria nada, captaste perfecto mi escencia'.
 
-### `npm run eject`
+La finalizacion se realizara en cuanto las imagenes e informacion completas sean provistas; en ese momento se completaran tambien los enrutamientos deseados.
+No se descartan otros tipos de cambios hasta entonces.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dependences used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   "react-app",
 
-## Learn More
+-   "react-router-dom": "^6.3.0",
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   "react-icons": "^4.4.0",
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   "react-spinners": "^0.13.4",
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tools
 
-### Analyzing the Bundle Size
+- GitIgnore: **gitignore.io**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Random Testimonial API: **https://rapidapi.com/info.blogtheorem/api/testimonial/**
