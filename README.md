@@ -9,6 +9,22 @@ Project finish: _24-08-2022_
 
 
 
+## Dependences used
+
+-   "react-app",
+
+-   "react-router-dom": "^6.3.0",
+
+-   "react-icons": "^4.4.0",
+
+-   "react-spinners": "^0.13.4",
+
+
+## Tools
+
+- GitIgnore: **gitignore.io**
+
+- Random Testimonial API: **https://rapidapi.com/info.blogtheorem/api/testimonial/**
 
 
 # Logica del negocio:
@@ -29,20 +45,3 @@ La finalizacion se realizara en cuanto las imagenes e informacion completas sean
 No se descartan otros tipos de cambios hasta entonces.
 
 
-
-## Dependences used
-
--   "react-app",
-
--   "react-router-dom": "^6.3.0",
-
--   "react-icons": "^4.4.0",
-
--   "react-spinners": "^0.13.4",
-
-
-## Tools
-
-- GitIgnore: **gitignore.io**
-
-- Random Testimonial API: **https://rapidapi.com/info.blogtheorem/api/testimonial/**
